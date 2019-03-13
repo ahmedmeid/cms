@@ -1,9 +1,5 @@
 package se.alten.challenge.config;
 
-import se.alten.challenge.security.*;
-import se.alten.challenge.security.jwt.*;
-
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.http.HttpMethod;
@@ -14,6 +10,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.zalando.problem.spring.web.advice.security.SecurityProblemSupport;
+
+import se.alten.challenge.security.AuthoritiesConstants;
+import se.alten.challenge.security.jwt.JWTConfigurer;
+import se.alten.challenge.security.jwt.TokenProvider;
 
 @Configuration
 @EnableWebSecurity
