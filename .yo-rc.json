@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "se.alten.challenge",
+    "packageFolder": "se/alten/challenge",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "cms",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "buildTool": "maven",
+    "serverPort": "8081",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "YzYwMGYyZDQ2MDUyN2Y1NThjNzVhOWRlY2JjZmZkODFiY2E2MjkxMWM5ODdhMjFkZmI2MTFlNmI1ZTE1NDY0YzFjNDgwZGRlMTk5YWJmNWRmZThiYTRjZjBjNDM3MWYxZjMxYTBhNTcyMWM0OTZjMGE5YTMzZmY2OWQ2NGJlMDI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer",
+    "Vehicle"
+  ]
+}
